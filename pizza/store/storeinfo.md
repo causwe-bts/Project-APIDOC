@@ -46,10 +46,20 @@ None
 **Auth required** : YES
 
 ## Request Sample
+**Data example**
+* time : "24hr"
 
-**Content examples**
+```json
+{
+    "time":"24hr"
+}
+```
 
 추가바람
 ## Success Response
 
-추가바람
+```json
+{
+    "message": "success"
+}
+```
