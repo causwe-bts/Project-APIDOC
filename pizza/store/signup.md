@@ -1,12 +1,12 @@
-# 가입하기
+# 가게 가입하기
 
 ## Summary
 
-유저 가입하기 api입니다.
+가게 가입하기 api입니다.
 
 ## info
 
-**URL** : `/api/user/signup`
+**URL** : `/api/store/signup`
 
 **Method** : `POST`
 

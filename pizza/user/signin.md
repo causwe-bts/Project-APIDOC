@@ -1,40 +1,36 @@
-# 가입하기
+# 유저로그인
 
-## Summary
+Used to collect a Token for a registered User.
 
-유저 가입하기 api입니다.
-
-## info
-
-**URL** : `/api/user/`
+**URL** : `/api/user/signin`
 
 **Method** : `POST`
 
 **Auth required** : NO
 
-## Request Sample
-
-**Content examples**
-
-* email : string
+**Data example**
+* username : string
 * password : string
-* name : string
-* phone : string
-
 ```json
-// body
+//body
 {
-    "email" : "abc@abc.com",
-    "password" : "1q2w3e4r",
-    "name" : "Harry",
-    "phone": "01012345678"
+    "username": "iloveauth",
+    "password": "abcd1234"
 }
 ```
+
 ## Success Response
 
 **Code** : `200 OK`
-```
-void
+
+**Content example**
+* token : string
+```json
+{
+    "message": "success",
+    "body": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGIwZWYzN2M2ZGRkM2E3ZjAyMGRkZmIiLCJ1c2VybmFtZSI6InNhbmdyeXVsIiwiYWRtaW4iOnRydWUsImlhdCI6MTYyMjMzODExNVySW5mbyJ9.jC1KW1fXiutyokDMMCOtX3Uf2-KKYPbY3BV6EtLkhSo"
+    }
+}
 ```
 
-## Error Response
