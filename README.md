@@ -6,8 +6,8 @@
 * Response의 Body 형식은 다음과 같다
 ```json
 {
-    message : "unsuccess",
-    body : {
+    "message" : "unsuccess",
+    "body" : {
         // 내용은 여기에 포함합니다.
     }
 }
@@ -22,14 +22,13 @@ https://caupizza.shop
 ## USER
 * [가입하기](/pizza/user/signup.md) : `POST /api/user/signup`
 * [유저로그인](/pizza/user/signin.md) : `POST /api/user/signin`
-* [유저주문](user/orderlist.md) : `GET /api/user/orderlist`
-* [유저정보](user/userinfo.md) : `GET /api/userinfo`
+* [유저주문](/pizza/user/orderlist.md) : `GET /api/user/orderlist`
+* [유저정보](/pizza/user/userinfo.md) : `GET /api/userinfo`
 
 ## MENU
 * [메뉴리스트조회](/pizza/menu/menulist.md) : `GET /api/menu/menulist`
 * [메뉴생성](/pizza/menu/menulist.md) : `POST /api/menu/menulist`
 * [주문하기](/pizza/menu/order.md) : `POST /api/menu/order`
----
 
 ## Store
 * [가게 가입하기](/pizza/store/signup.md) : `POST /api/store/signup`
