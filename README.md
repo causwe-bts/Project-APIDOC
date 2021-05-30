@@ -1,14 +1,14 @@
 
 # Online Pizza Ordering
 
-## notice
+## NOTICE
 * Token 모든 리퀘스트에서 같이 보냄(Header)
 * Response의 Body 형식은 다음과 같다
 ```json
 {
     "message" : "unsuccess",
     "body" : {
-        // 내용은 여기에 포함합니다.
+        // 내용은 여기에 포함됩니다.
     }
 }
 ```
